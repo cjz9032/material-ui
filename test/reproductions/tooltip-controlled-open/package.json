@@ -1,0 +1,26 @@
+{
+  "name": "mui-tooltip-controlled-open-reproduction",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "node prepare-fixed-tooltip.mjs",
+    "dev": "vite --host 127.0.0.1 --port 5182",
+    "build": "vite build",
+    "test": "playwright test"
+  },
+  "dependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.1",
+    "@mui/material": "9.5.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.59.1",
+    "vite": "7.3.6"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
