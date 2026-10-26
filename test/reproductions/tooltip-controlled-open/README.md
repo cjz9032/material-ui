@@ -1,6 +1,6 @@
 # Controlled MUI Tooltip: opening/closing race
 
-A standalone English reproduction using official `@mui/material@9.5.0` and React `18.3.1`. There is no application wrapper and no forked component dependency.
+A standalone reproduction using official `@mui/material@9.5.0` and React `18.3.1`. There is no application wrapper and no forked component dependency.
 
 ![Original versus patched Tooltip](original-vs-fixed.png)
 
